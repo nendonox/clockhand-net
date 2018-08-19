@@ -1,0 +1,35 @@
+html {
+  max-width: 960px;
+  margin: auto;
+  color: #444;
+  font-size: 14px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #335;
+  font-size: 40px;
+  margin: 24px 0 16px 0;
+}
+
+h2 {
+  color: #446;
+  font-size: 20px;
+  margin: 32px 0 16px 0;
+  padding: 4px 0;
+  border-bottom: 2px dashed #446;
+}
+
+.info {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+
+
+footer {
+  margin-top: 64px;
+  text-align: center;
+}
