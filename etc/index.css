@@ -3,6 +3,7 @@ html {
   margin: auto;
   color: #444;
   font-size: 14px;
+  font-family: Meiryo;
 }
 
 header {
@@ -23,13 +24,44 @@ h2 {
   border-bottom: 2px dashed #446;
 }
 
+h3 {
+  margin: 0 0 16px;
+}
+
+h3 > a {
+  text-decoration: none;
+  border-bottom: 1px solid #641;
+  padding-bottom: 2px;
+  color: #641;
+}
+
+ul {
+  padding: 0 30px 0;
+}
+
+.product {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 16px;
+}
+
+.product > div {
+  flex-grow: 1;
+}
+
 .info {
   color: #5a5a5a;
   font-size: 14px;
 }
 
+.thumbnail {
+  width: 160px;
+  border: 1px solid #ccd;
+  border-radius: 4px;
+  box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.15);
+}
 
 footer {
-  margin-top: 64px;
+  margin: 64px 0 24px;
   text-align: center;
 }
